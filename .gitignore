@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+develop-eggs/
+parts/
+wheels/
+pip-wheel-metadata/
+pip.log
+pip-delete-this.txt
+*.egg-info/
+.installed.cfg
+*.manifest
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+.gs
+.pytest_cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS or Editor Folders and Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
