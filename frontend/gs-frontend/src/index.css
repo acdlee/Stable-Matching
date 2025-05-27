@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --dark-blue: #00356B;
+  --light-blue: #286DC0;
+  --charcoal: #333;
+  --white: #fff;
+  --font-important: #222222;
+  --font-base: #4A4A4A;
+  --light-grey: #F9F9F9;
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2,
+h3,
+p,
+a,
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, h3, a {
+  color: var(--font-important);
+}
+
+p, li {
+  color: var(--font-base);
+}

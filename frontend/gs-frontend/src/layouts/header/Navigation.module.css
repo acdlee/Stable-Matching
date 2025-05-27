@@ -1,0 +1,36 @@
+.header {
+    border-bottom: 3px solid var(--light-blue);
+    padding: .25rem;
+}
+
+.imgContainer {
+    width: 50;
+    height: 50;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.header h1 span {
+    color: var(--font-important);
+}
+
+.header nav {
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.header nav ul {
+    display: flex;
+    width: inherit;
+    justify-content: space-evenly;
+}
+
+.header nav ul li {
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    font-size: 1.05em;
+    font-weight: bold;
+}

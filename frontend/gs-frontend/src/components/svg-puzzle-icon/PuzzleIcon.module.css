@@ -1,0 +1,8 @@
+.icon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: rotate(80deg);
+    cursor: pointer;
+    z-index: 1;
+}

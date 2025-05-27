@@ -1,0 +1,20 @@
+.article {
+    background-color: var(--light-grey);
+    padding: 1rem;
+    margin: 2rem .5rem;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 24px;
+}
+
+.article h3 {
+    padding-bottom: .5em;
+}
+
+.article p {
+    text-indent: .5rem;
+    padding: .5rem 0;
+}
+
+.article ul li {
+    padding-bottom: .5rem;
+}

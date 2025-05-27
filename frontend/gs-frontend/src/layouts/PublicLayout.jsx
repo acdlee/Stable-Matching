@@ -1,4 +1,5 @@
-import Navigation from "./Navigation";
+import Footer from "./footer/Footer";
+import Navigation from "./header/Navigation";
 
 function PublicLayout({ children }) {
     return (
@@ -7,6 +8,7 @@ function PublicLayout({ children }) {
             <main>
                 {children}
             </main>
+            <Footer />
         </>
     );
 }
