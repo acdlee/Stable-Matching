@@ -1,8 +1,8 @@
 .footer {
     background-color: var(--charcoal);
-    position: absolute;
     width: 100%;
     padding: 1rem;
+    margin-top: auto;
 }
 
 .footer p, .footer a {

@@ -1,30 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./PuzzleIcon.module.css"
-import useColor from "../../hooks/useColor";
 
 function PuzzleIcon() {
-    const { fillColor, handleSetFillColor, handleHover } = useColor("#00356B");
-
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            "behavior": "smooth"
-        })
-    }
-
-    useEffect(() => {
-        function handleScroll() {
-            let scrollAmount = window.pageYOffset;
-            console.log(scrollAmount % 25);
-            if (scrollAmount % 100 == 0) {
-                handleSetFillColor();
-            }
-        }
-
-        window.addEventListener('scroll', handleScroll)
-    }, [])
-    console.log(fillColor);
     return (
         <div className={styles.icon} onClick={scrollToTop}>
             <svg 

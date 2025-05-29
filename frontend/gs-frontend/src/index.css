@@ -34,3 +34,11 @@ h2, h3, a {
 p, li {
   color: var(--font-base);
 }
+
+a {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--light-blue);
+}

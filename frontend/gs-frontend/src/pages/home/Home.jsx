@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <section className={styles.section}>
-                <h2>Welcome Stable Matchers!</h2>
+                <h2>The Stable Matching Problem</h2>
                 <Article title={"About the Algorithm"}>
                     <p>
                         The Gale Shapley algorithm finds a solution
@@ -15,14 +15,21 @@ function Home() {
                     </p>
                     <p> 
                         Named after David Gale and Lloyd
-                        Shapley (published 1962), this algorithm seeks to pair up two
+                        Shapley (
+                        <a 
+                            href="https://wayback.archive-it.org/5456/20240920170021/http://www.eecs.harvard.edu/cs286r/courses/fall09/papers/galeshapley.pdf"
+                            target="_blank"
+                        >
+                            published in 1962
+                        </a>
+                        ), this algorithm seeks to pair up two
                         groups based on their preferences.
                     </p>
                 </Article>
                 <Article title={"Real World Applications"}>
                     <p>
                         Algorithms for finding solutions to the stable matching problem
-                         have varied real-world application. 
+                         have varied real-world application: 
                     </p>
                     <ul>
                         <li>
