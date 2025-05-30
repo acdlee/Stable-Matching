@@ -1,3 +1,4 @@
+/* Use flex to enforce footer position. */
 .layout {
     display: flex;
     flex-direction: column;

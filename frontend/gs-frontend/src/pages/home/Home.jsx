@@ -3,6 +3,11 @@ import Article from "../../components/article/Article";
 
 import styles from "./Home.module.css"
 
+/**
+ * Creates the Home page content rendered inside 'main' (see PublicLayout.jsx).
+ * Holds all text/img content for the page.
+ * @returns {Component} Home page component.
+ */
 function Home() {
     return (
         <>

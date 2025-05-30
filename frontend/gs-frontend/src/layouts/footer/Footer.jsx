@@ -1,4 +1,9 @@
 import styles from "./Footer.module.css"
+/**
+ * A footer that appears at the bottom of the page (inside a flex container).
+ * Automated year for copyright.
+ * @returns {Component} Footer component.
+ */
 
 function Footer() {
     const date = new Date();

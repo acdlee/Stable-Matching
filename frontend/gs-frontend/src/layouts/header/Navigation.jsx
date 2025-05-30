@@ -4,6 +4,11 @@ import { MdAccountCircle } from "react-icons/md";
 
 import styles from "./Navigation.module.css";
 
+/**
+ * Wrapper component for <header>.
+ * Includes navigation, account button (for sign in/up), and page title.
+ * @returns {Component} Navigation (header) component.
+ */
 function Navigation() {
     const navLinks = [
         {to: '/', text: 'Home'},
